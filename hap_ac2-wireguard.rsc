@@ -87,7 +87,7 @@ set api-ssl disabled=yes
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 add authentication-types=wpa2-psk eap-methods="" mode=dynamic-keys \
-    name=profile_wifi supplicant-identity="" wpa2-pre-shared-key=$wifiPassword
+    name=profile1 supplicant-identity="" wpa2-pre-shared-key=$wifiPassword
 
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
