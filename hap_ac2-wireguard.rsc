@@ -87,14 +87,14 @@ set api-ssl disabled=yes
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 add authentication-types=wpa2-psk eap-methods="" mode=dynamic-keys \
-    name=profile1 supplicant-identity="" wpa2-pre-shared-key=wifiPassword
+    name=profile1 supplicant-identity="" wpa2-pre-shared-key=$wifiPassword
 
 /interface wireless
 set [ find default-name=wlan1 ] band=2ghz-b/g/n channel-width=20/40mhz-eC \
     disabled=no frequency=auto mode=ap-bridge \
-    security-profile=profile1 ssid=$wifiSSID5ghz wireless-protocol=802.11 wps-mode=\
+    security-profile=profile1 ssid=$wifiSSID2ghz wireless-protocol=802.11 wps-mode=\
     disabled frequency-mode=regulatory-domain distance=indoors
 set [ find default-name=wlan2 ] band=5ghz-a/n/ac channel-width=20/40/80mhz-eeCe \
     disabled=no frequency=auto mode=ap-bridge \
-    security-profile=profile1 ssid=$wifiSSID2ghz wireless-protocol=802.11 \
+    security-profile=profile1 ssid=$wifiSSID5ghz wireless-protocol=802.11 \
     wps-mode=disabled frequency-mode=regulatory-domain distance=indoors
