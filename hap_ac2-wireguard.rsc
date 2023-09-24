@@ -60,7 +60,7 @@ add address=$ipLAN interface=bridge1 network=$ipLANnetwork
 add address=$ipWAN interface=ether1 network=$ipWANnetwork
 add address=$wireguardIP interface=wireguard network=$wireguardIP
 
-#DNS | ## Probar con remote-request = no
+#DNS
 /ip dns set allow-remote-requests=yes servers=$wireguardDNS
 
 #Firewall
