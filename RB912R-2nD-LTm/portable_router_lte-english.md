@@ -91,7 +91,8 @@ Notes: It has a miniPCI-e port and I would like to change the LTE module for a L
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/lora.png?raw=true)
 <br>
 
-#END
+#End Test
+<br>
 <br>
 And you, which router do you take with you on your trip?
 
