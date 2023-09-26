@@ -1,14 +1,17 @@
-En este test vamos a probar un pequeño Router LTE portable que permite alimentación a 5V y en el que podemos configurar una conexión a Internet de diferentes maneras, además de poder configurar nuestro servicio VPN.
+Vamos a probar un pequeño Router LTE portable que permite alimentación a 5V
+
+En este router podemos configurar nuestra conexión a Internet de diferentes maneras además de poder configurar un servicio de VPN.
+Todo esto y mucho más con un equipo pequeño y bastante robusto.
 
 #Ejemplos de utilidades para este router:
 
->Conectarse a Internet con el módem LTE y establecer un túnel a un servicio VPN para tener tráfico cifrado.
->Conectarse como cliente a un punto de acceso (por ejemplo una cafetería o tu propio móvil) y compartirlo por cable ethernet.
->Conectarse a Internet por módem LTE o cable Ethernet y generar un punto de acceso normal o incluso cifrado con VPN.
->Establecer una conexión contra el router de nuestra casa para poder acceder a nuestros equipos y evitar en cierta manera el cg-nat al poder acceder al router y los equipos conectados.
->Utilizar el botón ‘Mode’ para cambiar de peer y tener una IP pública diferente o para cargar diferentes configuraciones.
->Utilizar la placa tu propio proyecto de IoT
->Montar como segunda conexión en tu casa y así poder tener un failover en tu router en caso de pérdida de Internet.
+-Conectarse a Internet con el módem LTE y establecer un túnel a un servicio VPN para tener tráfico cifrado.
+-Conectarse como cliente a un punto de acceso (por ejemplo una cafetería o tu propio móvil) y compartirlo por cable ethernet.
+-Conectarse a Internet por módem LTE o cable Ethernet y generar un punto de acceso normal o incluso cifrado con VPN.
+-Establecer una conexión contra el router de nuestra casa para poder acceder a nuestros equipos y evitar en cierta manera el cg-nat al poder acceder al router y los equipos conectados.
+-Utilizar el botón ‘Mode’ para cambiar de peer y tener una IP pública diferente o para cargar diferentes configuraciones.
+-Utilizar la placa tu propio proyecto de IoT
+-Montar como segunda conexión en tu casa y así poder tener un failover en tu router en caso de pérdida de Internet.
 
 #Especificaciones del equipo:
 
@@ -17,6 +20,8 @@ Architecture: MIPSBE | CPU: QCA9531 | RAM: 64MB
 Number of DC inputs: 3 (DC jack 8-30V, PoE-IN 12-57V, MicroUSB 5V). Max power consumption: 9W
 Mobile: 2G,3G,4G (LTE Cat 4) | DualSIM (Only one SIM can operate at a time)
 Ethernet: 10/100Mbps one port & Wireless: 2.4Ghz 300Mbps
+
+
 
 #Material utilizado:
 
