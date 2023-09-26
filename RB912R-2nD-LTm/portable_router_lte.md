@@ -1,17 +1,14 @@
-Configure a Portable LTE Router 💊 Create your secure connection for mobility ⚡️
+Configura un Router LTE portatil para conexiones seguras en movilidad ⚡️
 
-
-**En este test, vamos a probar un pequeño Router LTE portable que permite alimentación a 5V**
+**Test de un pequeño router LTE portátil que permite alimentación a 5V**.
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte1.jpg?raw=true)
-<br>
 
 En este router podemos configurar nuestra conexión a Internet de diferentes maneras además de poder configurar un servicio de VPN.
 Todo esto y mucho más con un equipo pequeño y bastante robusto.
-<br>
-<br>
-#Ejemplos de usos para este router:
-<br>
+
+**#Ejemplos de usos para este router:**
+
 -Conectarse a Internet con el módem LTE y establecer un túnel a un servicio VPN para tener tráfico cifrado.
 
 -Conectarse como cliente a un punto de acceso (por ejemplo una cafetería o tu propio móvil) y compartirlo por cable ethernet.
@@ -26,23 +23,18 @@ Todo esto y mucho más con un equipo pequeño y bastante robusto.
 
 -Montar como segunda conexión en tu casa y así poder tener un failover en tu router en caso de pérdida de Internet.
 
-<br>
 
-<br>
+**#Especificaciones del equipo**
 
-#Especificaciones del equipo:
-<br>
-Product code: MikroTik RB912R-2nD-Ltm with R11e-LTE
+Referencia: MikroTik RB912R-2nD-Ltm with R11e-LTE
 
-Architecture: MIPSBE | CPU: QCA9531 | RAM: 64MB
+Arquitectura: MIPSBE | CPU: QCA9531 | RAM: 64MB
 
-Number of DC inputs: 3 (DC jack 8-30V, PoE-IN 12-57V, MicroUSB 5V). Max power consumption: 9W
+Entradas DC: 3 (DC jack 8-30V, PoE-IN 12-57V, MicroUSB 5V). Consumo máximo: 9W
 
-Mobile: 2G,3G,4G (LTE Cat 4) | DualSIM (Only one SIM can operate at a time)
+Mobile: 2G,3G,4G (LTE Cat 4) | DualSIM (Solo se puede tener 1 conexión a la vez)
 
 Ethernet: 10/100Mbps one port & Wireless: 2.4Ghz 300Mbps
-
-<br>
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte5.jpg?raw=true)
 
@@ -50,14 +42,12 @@ Ethernet: 10/100Mbps one port & Wireless: 2.4Ghz 300Mbps
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte9.jpg?raw=true)
 
-<br>
-#Pruebas
-<br>
-<br>
-Para esta prueba vamos a conseguir una SIM de 4GB de datos móviles de un operador low cost con un coste aproximado de 2$. El ISP nos proporciona una ip pública bajo CG-NAT.
-<br>
+**#Pruebas**
 
-<br>
+Para esta prueba vamos a conseguir una SIM de 4GB de datos móviles de un operador low cost con un coste aproximado de 2$. El ISP nos proporciona una ip pública bajo CG-NAT.
+
+
+
 Listado de IPs (públicas y privadas):
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/ipaddress.png?raw=true)
@@ -85,14 +75,13 @@ Incluye herramientas integradas para mejorar la conexión LTE como LTE Cell Moni
 Puedes modificar la frecuencia del procesador para aumentar rendimiento o disminuir consumo con lo que ello conlleva.
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/cpu_frequency.png?raw=true)
-<br>
-<br>
+
+
 Notas: Tiene un puerto miniPCI-e y me gustaría cambiar el módulo LTE por uno LoRa para hacer experimentos ;).
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/lora.png?raw=true)
 
-<br>
-#Fin del test
+**#Fin del test**
 
-<br>
+Gracias por leerlo hasta el final ❤️
 
-Disfrutalo!
+Y tú, ¿qué router te llevas de viaje?
