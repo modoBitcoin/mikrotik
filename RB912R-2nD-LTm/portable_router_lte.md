@@ -7,9 +7,8 @@ En este router podemos configurar nuestra conexión a Internet de diferentes man
 Todo esto y mucho más con un equipo pequeño y bastante robusto.
 
 <br>
-<br>
 #Ejemplos de utilidades para este router:
-
+<br>
 -Conectarse a Internet con el módem LTE y establecer un túnel a un servicio VPN para tener tráfico cifrado.
 
 -Conectarse como cliente a un punto de acceso (por ejemplo una cafetería o tu propio móvil) y compartirlo por cable ethernet.
@@ -28,7 +27,7 @@ Todo esto y mucho más con un equipo pequeño y bastante robusto.
 <br>
 
 #Especificaciones del equipo:
-
+<br>
 Product code: MikroTik RB912R-2nD-Ltm with R11e-LTE
 
 Architecture: MIPSBE | CPU: QCA9531 | RAM: 64MB
@@ -39,7 +38,7 @@ Mobile: 2G,3G,4G (LTE Cat 4) | DualSIM (Only one SIM can operate at a time)
 
 Ethernet: 10/100Mbps one port & Wireless: 2.4Ghz 300Mbps
 
-
+<br>
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte5.jpg?raw=true)
 
