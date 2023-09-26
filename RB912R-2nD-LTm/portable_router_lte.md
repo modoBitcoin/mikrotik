@@ -18,22 +18,32 @@ Todo esto y mucho más con un equipo pequeño y bastante robusto.
 
 -Utilizar el botón ‘Mode’ para cambiar de peer y tener una IP pública diferente o para cargar diferentes configuraciones.
 
--Utilizar la placa tu propio proyecto de IoT.
+-Utilizar en tu proyecto de IoT para pruebas.
 
 -Montar como segunda conexión en tu casa y así poder tener un failover en tu router en caso de pérdida de Internet.
+
 
 
 #Especificaciones del equipo:
 
 Product code: MikroTik RB912R-2nD-Ltm with R11e-LTE
+
 Architecture: MIPSBE | CPU: QCA9531 | RAM: 64MB
+
 Number of DC inputs: 3 (DC jack 8-30V, PoE-IN 12-57V, MicroUSB 5V). Max power consumption: 9W
+
 Mobile: 2G,3G,4G (LTE Cat 4) | DualSIM (Only one SIM can operate at a time)
+
 Ethernet: 10/100Mbps one port & Wireless: 2.4Ghz 300Mbps
 
+
+
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte5.jpg?raw=true)
+
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte7.jpg?raw=true)
+
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte9.jpg?raw=true)
+
 
 #Pruebas
 
