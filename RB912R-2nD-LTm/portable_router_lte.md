@@ -34,6 +34,10 @@ Ethernet: 10/100Mbps one port
 Para esta prueba vamos a conseguir una SIM de 4GB de datos móviles con un coste aproximado de 2$. El ISP nos proporciona una ip pública bajo CG-NAT.
 Nos vamos a conectar por WinBox al router y partiremos de que nuestro router tiene la versión de RouterOS7 si queremos configurar Wireguard.
 
+Listado de IPs (públicas y privadas):
+
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/ipaddress.png?raw=true)
+
 Información de la conexión LTE:
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/lte_info.png?raw=true)
@@ -46,7 +50,11 @@ Simple test de velocidad en interior (sin VPN):
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/test_indoor.png)
 
-Algunas de las herramientas integradas:
+Ejemplos de tráfico en la interface LTE, ethernet y wireless:
+
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/traffic_resources.png?raw=true)
+
+Tienes muchas herramientas integradas para mejorar la conexión LTE como LTE Cell Monitor y LTE Scanner, también tienes Torch, Traceroute, Wireless Snooper:
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/tools.png?raw=true)
 
@@ -63,14 +71,5 @@ Puedes modificar la frecuencia del procesador para aumentar rendimiento o dismin
 
 
 
-
-
-
-
-
-
-
-
-Ejemplo de estado de la interface LTE:
 
 Herramientas integradas como ‘LTE Cell Monitor’ y ‘LTE Scanner’
