@@ -5,6 +5,8 @@
 
 En este router podemos configurar nuestra conexión a Internet de diferentes maneras además de poder configurar un servicio de VPN.
 Todo esto y mucho más con un equipo pequeño y bastante robusto.
+
+<br>
 <br>
 <br>
 #Ejemplos de utilidades para este router:
@@ -51,7 +53,7 @@ Ethernet: 10/100Mbps one port & Wireless: 2.4Ghz 300Mbps
 <br>
 <br>
 Para esta prueba vamos a conseguir una SIM de 4GB de datos móviles de un operador low cost con un coste aproximado de 2$. El ISP nos proporciona una ip pública bajo CG-NAT.
-
+<br>
 Listado de IPs (públicas y privadas):
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/ipaddress.png?raw=true)
@@ -79,8 +81,8 @@ Tienes muchas herramientas integradas para mejorar la conexión LTE como LTE Cel
 Puedes modificar la frecuencia del procesador para aumentar rendimiento o disminuir consumo con lo que ello conlleva.
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/cpu_frequency.png?raw=true)
-
+<br>
 Notas: Tiene un puerto miniPCI-e y me gustaría cambiar el módulo LTE por uno LoRa para hacer experimentos ;)
 Si te interesa alguún setup en concreto, puedo subir el script para que puedas importarla o comparar con tu configuración actual.
-
+<br>
 Disfrutalo!
