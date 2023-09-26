@@ -83,7 +83,11 @@ Puedes modificar la frecuencia del procesador para aumentar rendimiento o dismin
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/cpu_frequency.png?raw=true)
 <br>
-Notas: Tiene un puerto miniPCI-e y me gustaría cambiar el módulo LTE por uno LoRa para hacer experimentos ;)
-Si te interesa alguún setup en concreto, puedo subir el script para que puedas importarla o comparar con tu configuración actual.
 <br>
+Notas: Tiene un puerto miniPCI-e y me gustaría cambiar el módulo LTE por uno LoRa para hacer experimentos ;).
+
+Si te interesa alguún setup en concreto, puedo subir el script para que puedas importarla o comparar con tu configuración actual.
+
+<br>
+
 Disfrutalo!
