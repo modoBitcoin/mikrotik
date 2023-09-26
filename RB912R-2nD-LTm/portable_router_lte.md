@@ -91,5 +91,8 @@ Notas: Tiene un puerto miniPCI-e y me gustaría cambiar el módulo LTE por uno L
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/lora.png?raw=true)
 
 <br>
+#Fin del test
+
+<br>
 
 Disfrutalo!
