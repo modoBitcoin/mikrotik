@@ -75,7 +75,7 @@ Ejemplos de tráfico en la interface LTE, ethernet y wireless, incluido el rendi
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/traffic_resources.png?raw=true)
 
-Tienes muchas herramientas integradas para mejorar la conexión LTE como LTE Cell Monitor y LTE Scanner, también tienes Torch, Traceroute, Wireless Snooper:
+Incluye herramientas integradas para mejorar la conexión LTE como LTE Cell Monitor y LTE Scanner. También tienes Torch, Traceroute, Wireless Snooper entre otras:
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/tools.png?raw=true)
 
