@@ -22,6 +22,7 @@ Todo esto y mucho más con un equipo pequeño y bastante robusto.
 
 -Montar como segunda conexión en tu casa y así poder tener un failover en tu router en caso de pérdida de Internet.
 
+<br>
 
 
 #Especificaciones del equipo:
@@ -44,7 +45,7 @@ Ethernet: 10/100Mbps one port & Wireless: 2.4Ghz 300Mbps
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte9.jpg?raw=true)
 
-
+<br>
 #Pruebas
 
 Para esta prueba vamos a conseguir una SIM de 4GB de datos móviles de un operador low cost con un coste aproximado de 2$. El ISP nos proporciona una ip pública bajo CG-NAT.
