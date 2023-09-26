@@ -10,14 +10,9 @@ Utilizar el botón ‘Mode’ para cambiar de peer y tener una IP pública difer
 Utilizar la placa tu propio proyecto de IoT
 Montar como segunda conexión en tu casa y así poder tener un failover en tu router en caso de pérdida de Internet.
 
-…
+Tiene puerto miniPCI-e asique me gustaría cambiar el módulo LTE por uno LoRa para hacer experimentos ;)
 
-Además, creo que es posible cambiar el módulo LTE y utilizar por ejemplo un módulo LoRa para otro experimento ya que tiene un puerto MiniPCI-e
-
-
-
-Características del equipo:
-
+#Características del equipo:
 Product code: MikroTik RB912R-2nD-Ltm with R11e-LTE
 Architecture: MIPSBE
 CPU: QCA9531
@@ -50,7 +45,7 @@ Simple test de velocidad en interior (sin VPN):
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/test_indoor.png)
 
-Ejemplos de tráfico en la interface LTE, ethernet y wireless:
+Ejemplos de tráfico en la interface LTE, ethernet y wireless, incluido el rendimiento del router:
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/traffic_resources.png?raw=true)
 
