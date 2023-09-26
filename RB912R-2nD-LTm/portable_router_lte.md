@@ -1,3 +1,6 @@
+Configure a Portable LTE Router 💊 Create your secure connection for mobility ⚡️
+
+
 **En este test, vamos a probar un pequeño Router LTE portable que permite alimentación a 5V**
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte1.jpg?raw=true)
@@ -7,7 +10,7 @@ En este router podemos configurar nuestra conexión a Internet de diferentes man
 Todo esto y mucho más con un equipo pequeño y bastante robusto.
 <br>
 <br>
-#Ejemplos de utilidades para este router:
+#Ejemplos de usos para este router:
 <br>
 -Conectarse a Internet con el módem LTE y establecer un túnel a un servicio VPN para tener tráfico cifrado.
 
