@@ -29,16 +29,18 @@ Wireless: 2.4Ghz 300Mbps
 Ethernet: 10/100Mbps one port
 
 
-Empezamos:
+#Material utilizado:
 
 Para esta prueba vamos a conseguir una SIM de 4GB de datos móviles con un coste aproximado de 2$. El ISP nos proporciona una ip pública bajo CG-NAT.
 Nos vamos a conectar por WinBox al router y partiremos de que nuestro router tiene la versión de RouterOS7 si queremos configurar Wireguard.
 
+Información de la conexión LTE:
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/lte_info.png?raw=true)
 
 
 Puedes modificar la frecuencia del procesador para aumentar rendimiento o disminuir consumo con lo que ello conlleva.
 
-
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/cpu_frequency.png?raw=true)
 
 
 
