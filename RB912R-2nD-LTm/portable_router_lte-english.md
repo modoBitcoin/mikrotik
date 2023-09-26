@@ -88,7 +88,11 @@ You can modify the processor frequency to increase performance or decrease power
 <br>
 <br>
 Notes: It has a miniPCI-e port and I would like to change the LTE module for a LoRa module to experiment ;).
+<br>
 
+#END
+<br>
+And you, which router do you take with you on your trip?
 
 <br>
 
