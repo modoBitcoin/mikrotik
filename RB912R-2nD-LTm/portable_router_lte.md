@@ -2,13 +2,13 @@ En este test vamos a probar un pequeño Router LTE portable que permite alimenta
 
 #Ejemplos de utilidades para este router:
 
-Conectarse a Internet con el módem LTE y establecer un túnel a un servicio VPN para tener tráfico cifrado.
-Conectarse como cliente a un punto de acceso (por ejemplo una cafetería o tu propio móvil) y compartirlo por cable ethernet.
-Conectarse a Internet por módem LTE o cable Ethernet y generar un punto de acceso normal o incluso cifrado con VPN.
-Establecer una conexión contra el router de nuestra casa para poder acceder a nuestros equipos y evitar en cierta manera el cg-nat al poder acceder al router y los equipos conectados.
-Utilizar el botón ‘Mode’ para cambiar de peer y tener una IP pública diferente o para cargar diferentes configuraciones.
-Utilizar la placa tu propio proyecto de IoT
-Montar como segunda conexión en tu casa y así poder tener un failover en tu router en caso de pérdida de Internet.
+>Conectarse a Internet con el módem LTE y establecer un túnel a un servicio VPN para tener tráfico cifrado.
+>Conectarse como cliente a un punto de acceso (por ejemplo una cafetería o tu propio móvil) y compartirlo por cable ethernet.
+>Conectarse a Internet por módem LTE o cable Ethernet y generar un punto de acceso normal o incluso cifrado con VPN.
+>Establecer una conexión contra el router de nuestra casa para poder acceder a nuestros equipos y evitar en cierta manera el cg-nat al poder acceder al router y los equipos conectados.
+>Utilizar el botón ‘Mode’ para cambiar de peer y tener una IP pública diferente o para cargar diferentes configuraciones.
+>Utilizar la placa tu propio proyecto de IoT
+>Montar como segunda conexión en tu casa y así poder tener un failover en tu router en caso de pérdida de Internet.
 
 #Especificaciones del equipo:
 
