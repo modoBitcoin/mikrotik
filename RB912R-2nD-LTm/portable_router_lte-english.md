@@ -1,36 +1,36 @@
 Configure a Portable LTE Router 💊 Create your secure connection for mobility ⚡️
 
 
-**En este test, vamos a probar un pequeño Router LTE portable que permite alimentación a 5V**
+**In this test, we are going to test a small portable LTE Router that allows 5V power supply**.
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte1.jpg?raw=true)
 <br>
 
-En este router podemos configurar nuestra conexión a Internet de diferentes maneras además de poder configurar un servicio de VPN.
-Todo esto y mucho más con un equipo pequeño y bastante robusto.
+In this router we can configure our Internet connection in different ways in addition to being able to configure a VPN service.
+All this and much more with a small and quite robust device.
 <br>
 <br>
-#Ejemplos de usos para este router:
+#Examples of uses for this router:
 <br>
--Conectarse a Internet con el módem LTE y establecer un túnel a un servicio VPN para tener tráfico cifrado.
+-Connect to the Internet with the LTE modem and establish a tunnel to a VPN service to have encrypted traffic.
 
--Conectarse como cliente a un punto de acceso (por ejemplo una cafetería o tu propio móvil) y compartirlo por cable ethernet.
+-Connect as a client to an Access Point (e.g. a coffee shop or your own cell phone) and share it via ethernet cable.
 
--Conectarse a Internet por módem LTE o cable Ethernet y generar un punto de acceso normal o incluso cifrado con VPN.
+-Connect to the Internet via LTE modem or Ethernet cable and generate a normal access point or even encrypted with VPN.
 
--Establecer una conexión contra el router de nuestra casa para poder acceder a nuestros equipos y evitar en cierta manera el cg-nat al poder acceder al router y los equipos conectados.
+-Establish a connection against our home router to be able to access our equipment and avoid cg-nat in some way by being able to access the router and the connected equipment.
 
--Utilizar el botón ‘Mode’ para cambiar de peer y tener una IP pública diferente o para cargar diferentes configuraciones.
+-Use the 'Mode' button to change peer and have a different public IP or to load different configurations.
 
--Utilizar en tu proyecto de IoT para pruebas.
+-Use in your IoT project for testing.
 
--Montar como segunda conexión en tu casa y así poder tener un failover en tu router en caso de pérdida de Internet.
-
-<br>
+-Set up as a second connection in your home so you can have a failover on your router in case of Internet loss.
 
 <br>
 
-#Especificaciones del equipo:
+<br>
+
+#Specifications
 <br>
 Product code: MikroTik RB912R-2nD-Ltm with R11e-LTE
 
@@ -51,46 +51,45 @@ Ethernet: 10/100Mbps one port & Wireless: 2.4Ghz 300Mbps
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte9.jpg?raw=true)
 
 <br>
-#Pruebas
+#Test
 <br>
 <br>
-Para esta prueba vamos a conseguir una SIM de 4GB de datos móviles de un operador low cost con un coste aproximado de 2$. El ISP nos proporciona una ip pública bajo CG-NAT.
+For this test we are going to get a 4GB mobile data SIM from a low cost operator with an approximate cost of 2$. The ISP provides us with a public ip under CG-NAT.
 <br>
 
 <br>
-Listado de IPs (públicas y privadas):
+List of IPs (public and private):
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/ipaddress.png?raw=true)
 
-Información de la conexión LTE:
+LTE connection information:
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/lte_info.png?raw=true)
 
-Información por ssh:
+Information via ssh:
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/lte_info_console.png?raw=true)
 
-Simple test de velocidad en interior (sin VPN):
+Simple indoor speed test (without VPN):
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/test_indoor.png)
 
-Ejemplos de tráfico en la interface LTE, ethernet y wireless, incluido el rendimiento del router:
+Examples of traffic on the LTE, ethernet and wireless interface, including router performance:
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/traffic_resources.png?raw=true)
 
-Incluye herramientas integradas para mejorar la conexión LTE como LTE Cell Monitor y LTE Scanner. También tienes Torch, Traceroute, Wireless Snooper entre otras:
+It includes integrated tools to improve the LTE connection such as 'LTE Cell Monitor' and 'LTE Scanner'. You also have 'Torch', 'Traceroute', 'Wireless Snooper' among others:
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/tools.png?raw=true)
 
-Puedes modificar la frecuencia del procesador para aumentar rendimiento o disminuir consumo con lo que ello conlleva.
+You can modify the processor frequency to increase performance or decrease power consumption with all that this entails.
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/cpu_frequency.png?raw=true)
 <br>
 <br>
-Notas: Tiene un puerto miniPCI-e y me gustaría cambiar el módulo LTE por uno LoRa para hacer experimentos ;).
+Notes: It has a miniPCI-e port and I would like to change the LTE module for a LoRa module to experiment ;).
 
-Si te interesa alguún setup en concreto, puedo subir el script para que puedas importarla o comparar con tu configuración actual.
 
 <br>
 
-Disfrutalo!
+Enjoy it!
