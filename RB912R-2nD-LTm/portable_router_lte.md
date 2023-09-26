@@ -1,4 +1,6 @@
-Vamos a probar un pequeño Router LTE portable que permite alimentación a 5V
+**En este test, vamos a probar un pequeño Router LTE portable que permite alimentación a 5V**
+
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte1.jpg?raw=true)
 
 En este router podemos configurar nuestra conexión a Internet de diferentes maneras además de poder configurar un servicio de VPN.
 Todo esto y mucho más con un equipo pequeño y bastante robusto.
