@@ -35,8 +35,20 @@ Para esta prueba vamos a conseguir una SIM de 4GB de datos móviles con un coste
 Nos vamos a conectar por WinBox al router y partiremos de que nuestro router tiene la versión de RouterOS7 si queremos configurar Wireguard.
 
 Información de la conexión LTE:
+
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/lte_info.png?raw=true)
 
+Información por ssh:
+
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/lte_info_console.png?raw=true)
+
+Simple test de velocidad en interior (sin VPN):
+
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/test_indoor.png)
+
+Algunas de las herramientas integradas:
+
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/tools.png?raw=true)
 
 Puedes modificar la frecuencia del procesador para aumentar rendimiento o disminuir consumo con lo que ello conlleva.
 
