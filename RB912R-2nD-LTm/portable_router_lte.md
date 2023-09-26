@@ -8,7 +8,6 @@ Todo esto y mucho más con un equipo pequeño y bastante robusto.
 
 <br>
 <br>
-<br>
 #Ejemplos de utilidades para este router:
 
 -Conectarse a Internet con el módem LTE y establecer un túnel a un servicio VPN para tener tráfico cifrado.
