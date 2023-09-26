@@ -20,7 +20,6 @@ Todo esto y mucho más con un equipo pequeño y bastante robusto.
 -Montar como segunda conexión en tu casa y así poder tener un failover en tu router en caso de pérdida de Internet.
 
 
-
 #Especificaciones del equipo:
 
 Product code: MikroTik RB912R-2nD-Ltm with R11e-LTE
@@ -62,7 +61,6 @@ Tienes muchas herramientas integradas para mejorar la conexión LTE como LTE Cel
 Puedes modificar la frecuencia del procesador para aumentar rendimiento o disminuir consumo con lo que ello conlleva.
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/cpu_frequency.png?raw=true)
-
 
 Notas: Tiene un puerto miniPCI-e y me gustaría cambiar el módulo LTE por uno LoRa para hacer experimentos ;)
 Si te interesa alguún setup en concreto, puedo subir el script para que puedas importarla o comparar con tu configuración actual.
