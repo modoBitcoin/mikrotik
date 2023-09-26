@@ -5,6 +5,7 @@
 En este router podemos configurar nuestra conexión a Internet de diferentes maneras además de poder configurar un servicio de VPN.
 Todo esto y mucho más con un equipo pequeño y bastante robusto.
 
+
 #Ejemplos de utilidades para este router:
 
 -Conectarse a Internet con el módem LTE y establecer un túnel a un servicio VPN para tener tráfico cifrado.
@@ -30,11 +31,13 @@ Number of DC inputs: 3 (DC jack 8-30V, PoE-IN 12-57V, MicroUSB 5V). Max power co
 Mobile: 2G,3G,4G (LTE Cat 4) | DualSIM (Only one SIM can operate at a time)
 Ethernet: 10/100Mbps one port & Wireless: 2.4Ghz 300Mbps
 
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte5.jpg?raw=true)
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte7.jpg?raw=true)
+![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte9.jpg?raw=true)
 
-#Material utilizado:
+#Pruebas
 
-Para esta prueba vamos a conseguir una SIM de 4GB de datos móviles con un coste aproximado de 2$. El ISP nos proporciona una ip pública bajo CG-NAT.
-Nos vamos a conectar por WinBox al router y partiremos de que nuestro router tiene la versión de RouterOS7 si queremos configurar Wireguard.
+Para esta prueba vamos a conseguir una SIM de 4GB de datos móviles de un operador low cost con un coste aproximado de 2$. El ISP nos proporciona una ip pública bajo CG-NAT.
 
 Listado de IPs (públicas y privadas):
 
