@@ -1,7 +1,7 @@
 Configure a Portable LTE Router 💊 Create your secure connection for mobility ⚡️
 
 
-**In this test, we are going to test a small portable LTE Router that allows 5V power supply**.
+**Test a small portable LTE Router that allows 5V power supply**.
 
 ![](https://github.com/modoBitcoin/mikrotik/blob/main/RB912R-2nD-LTm/minilte1.jpg?raw=true)
 <br>
@@ -94,6 +94,8 @@ Notes: It has a miniPCI-e port and I would like to change the LTE module for a L
 #End Test
 <br>
 <br>
+Thanks for reading it to the end ❤️
+
 And you, which router do you take with you on your trip?
 
 <br>
