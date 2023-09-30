@@ -30,19 +30,19 @@
 #Bridge
 /interface bridge
 add name=bridge1
-/interface wireguard
-add listen-port=13231 mtu=1420 name=wireguard private-key=$wireguardPrivateKey
-
-#Interfaces (example: wan=ether1 lan=ether2,3,4,5 and wifi 2.4ghz y 5ghz)
 /interface bridge port
 add bridge=bridge1 interface=ether2
 add bridge=bridge1 interface=ether3
 add bridge=bridge1 interface=ether4
+add bridge=bridge1 interface=ether5
 add bridge=bridge1 interface=wlan1
 add bridge=bridge1 interface=wlan2
-add bridge=bridge1 interface=ether5
 
-#DHCP
+#Wireguard interface
+/interface wireguard
+add listen-port=13231 mtu=1420 name=wireguard private-key=$wireguardPrivateKey
+
+#DHCP configuration
 /ip pool
 add name=dhcp_pool ranges=$dhcppoolrange
 /ip dhcp-server
@@ -50,11 +50,11 @@ add address-pool=dhcp_pool interface=bridge1 name=dhcp_server
 /ip dhcp-server network
 add address=$dhcpserveraddress dns-server=$dhcpgateway gateway=$dhcpgateway
 
-#WireGuard
+#WireGuard Peer
 /interface wireguard peers
 add allowed-address=0.0.0.0/0 endpoint-address=$wireguardEndpoint endpoint-port=$wireguardEndpointPort interface=wireguard public-key=$wireguardPublicKey
 
-#IP address
+#IP Address
 /ip address
 add address=$ipLAN interface=bridge1 network=$ipLANnetwork
 add address=$ipWAN interface=ether1 network=$ipWANnetwork
@@ -64,31 +64,22 @@ add address=$wireguardIP interface=wireguard network=$wireguardIP
 /ip dns set allow-remote-requests=yes servers=$wireguardDNS
 
 #Firewall
+/ip firewall filter
+add action=accept chain=output dst-address=$wireguardEndpoint dst-port=$wireguardEndpointPort protocol=udp
 /ip firewall nat
-add action=masquerade chain=srcnat
+add action=masquerade chain=srcnat out-interface=ether1
+add action=masquerade chain=srcnat out-interface=wireguard
 
 #Routes
 /ip route
 add disabled=no distance=1 dst-address=0.0.0.0/0 gateway=wireguard pref-src="" routing-table=main scope=30 suppress-hw-offload=no target-scope=10
 add disabled=no distance=1 dst-address=$wireguardEndpoint gateway=$ipWANgateway pref-src="" routing-table=main scope=30 suppress-hw-offload=no target-scope=10
 
-#Others Disable services, only WinBox
-/ip service
-set telnet disabled=yes
-set ftp disabled=yes
-set www disabled=yes
-set ssh disabled=yes
-set api disabled=yes
-set api-ssl disabled=yes
-
-/system identity set name=$routerName
-
-#Wireless | Example with WPA2 PSK, 2.4Ghz and 5Ghz with same password
+#Wireless
 /interface wireless security-profiles
 set [ find default=yes ] supplicant-identity=MikroTik
 add authentication-types=wpa2-psk eap-methods="" mode=dynamic-keys \
     name=profile1 supplicant-identity="" wpa2-pre-shared-key=$wifiPassword
-
 /interface wireless
 set [ find default-name=wlan1 ] band=2ghz-b/g/n channel-width=20/40mhz-eC \
     disabled=no frequency=auto mode=ap-bridge \
@@ -98,3 +89,13 @@ set [ find default-name=wlan2 ] band=5ghz-a/n/ac channel-width=20/40/80mhz-eeCe 
     disabled=no frequency=auto mode=ap-bridge \
     security-profile=profile1 ssid=$wifiSSID5ghz wireless-protocol=802.11 \
     wps-mode=disabled frequency-mode=regulatory-domain distance=indoors
+
+#Others
+/system identity set name=$routerName
+/ip service
+set telnet disabled=yes
+set ftp disabled=yes
+set www disabled=yes
+set ssh disabled=yes
+set api disabled=yes
+set api-ssl disabled=yes
